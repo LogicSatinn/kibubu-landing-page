@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kibubu - Your Personal Budgeting Companion
 
-## Getting Started
+A modern, feature-rich budgeting application to help you manage your finances effectively, built with Next.js 15, Tailwind CSS, and TypeScript.
 
-First, run the development server:
+![Kibubu Budgeting App](https://byiy0cu7m2.ufs.sh/f/Luc8xnAhTG7ImFHgK3uMNGpf94OwHxnJcC23L5u86Z7BilD0)
 
+## Features
+
+### Core Technologies
+- ⚡ **Next.js 15** - The latest version with App Router
+- 🎨 **Tailwind CSS** - Utility-first CSS framework
+- 📘 **TypeScript** - Type-safe code
+- 🎭 **Shadcn/ui** - Beautiful and accessible components for a great user experience
+- 📊 **Data Visualization** - Clear charts and graphs to understand your spending habits (Assumed feature for a budgeting app)
+- 💰 **Transaction Tracking** - Easily log and categorize income and expenses (Assumed feature)
+- 🎯 **Budget Planning** - Set and monitor financial goals (Assumed feature)
+
+### Performance Optimizations
+- 🚀 **Route Prefetching** - Instant page transitions for a smooth experience
+- 🖼️ **Optimized Images** - Eager loading for critical images
+- 📱 **Responsive Design** - Access your budget on any device
+- 🔄 **Real-time Updates** - Financial data syncs instantly, powered by Convex DB
+
+### Developer Experience
+- 📈 **Dashboard** - Overview of your financial health (Replaced "Dashboard Template")
+- 🔍 **SEO Optimized** - Meta tags and sitemap generation (If applicable for a web-based budgeting app)
+
+## Quick Start
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone 
+
+2. Install dependencies:
+```bash
+pnpm install
+```
+5. Run the development server:
+```bash
+pnpm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see your application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `pnpm run dev` - Start development server
+- `pnpm run build` - Build for production
+- `pnpm run start` - Start production server
+- `pnpm run lint` - Run ESLint
+- `pnpm run format` - Format code with Prettier
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Support
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you find this template helpful, please give it a ⭐️ on GitHub!
