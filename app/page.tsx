@@ -1,4 +1,4 @@
-import Footer from "@/components/footer";
+import { Footer } from "@/components/footer-section";
 import Hero from "@/components/hero-section";
 import Image from "next/image";
 
